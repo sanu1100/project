@@ -1,0 +1,115 @@
+body{
+    font-family: "Ubuntu Sans", sans-serif;
+    background-image: url(../Task/img/netflix\ og.jpg);
+    background-size: 100%;
+    /* background-image:linear-gradient(rgba(22, 21, 21, 0.484)) ; */
+    padding: 0;
+    margin: 0;
+}
+nav{
+    margin: 0;
+    padding: 0%;
+    display: flex;
+    justify-content: space-between;
+}
+
+select{
+    text-align: center;
+    width: 131px;
+    height: 32px;
+    padding-top: 0%;
+    margin-top: 17%;
+    margin-right: -21%;
+    margin-left: 36%;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    color:white;
+}
+option{
+    background-color: white;
+    color: black;
+}
+select:hover{
+    /* color: black; */
+}
+#mn{
+    background-color: red;
+    color: white;
+    margin-top: 22px;
+    margin-right: 0%;
+    padding: 3px;
+    width: 79px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+}
+#right{
+    display: flex;
+    justify-content: center;
+    margin-right: 16%;
+}
+#cent{
+    margin-top: 10%;
+}
+#head{
+    margin-top: 0%;
+    h1{
+        text-align: center;
+        color: white;
+        
+        font-size: 50px;
+    }
+    
+    #h{
+        color: white;
+        font-size: x-large;
+        margin-top: -1%;
+    }
+
+    p{
+        color: white;
+        text-align: center;
+        margin-top: 0%;
+        font-size: 132%;
+    }
+}
+#log{
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+input,button,a{
+    display: block;
+}
+input{
+    width: 26%;
+    height: 42px;
+    margin-top: 5px;
+    padding-left: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border: 2px solid rgba(119, 111, 111, 0.529);
+    margin-left: 31%;
+    background-color: rgba(0, 0, 0, 0.449);
+    color: white;
+}
+button{
+    background-color: red;
+    color: white;
+    margin-top: -61px;
+    margin-right: 0%;
+    margin-left: 58%;
+    padding: 3px;
+    width: 165px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+}
+    
+
+a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
